@@ -1,0 +1,101 @@
+*{
+	
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+body{
+	width: 1440px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    background: #87509c;
+    height: 596px;
+}
+
+nav{
+	
+}
+
+.menu__list{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	font-size: 16px;
+	margin-right: 195px;
+	
+}
+
+.menu__list li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#fff;
+	
+}
+
+.menu__list li{
+	padding-top:60px;
+	
+}
+
+.menu__button{
+	padding:10px 19px;
+	margin-left: 6px;
+}
+
+.menu__button:hover{
+	background-color: #643a79;
+	border-radius: 4px;
+}
+
+h1{
+	
+	margin-top: -50px;
+	margin-left:212px;
+	font-size: 35px;
+	color:#fff;
+	font-family:  'Oleo Script', cursive;
+}
+
+
+.header__text{
+	
+	margin-left: 267px;
+	margin-right: 213px;
+	font-size: 42px;
+	text-align: center;
+	color:#fff;
+	margin-top: 122px;
+	
+}
+
+.title__center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button{
+	height: 70px;
+	width: 295px;
+	font-size:18px;
+	text-align: center;
+	background-color:#eb7d4b;
+	border: none;
+	border-radius: 4px;
+	color:#fff;
+}
+
+.button__header{
+	margin-top: 62px;
+}
+
+.button__header:hover{
+	opacity: 70%;
+}
+.services{
+	height: 749px;
+	background: #17c2a4;
+}
