@@ -1,3 +1,4 @@
+
 *{
 	
 	padding: 0px;
@@ -11,64 +12,50 @@ body{
 }
 
 header{
-    background: #87509c;
+	background: #87509c;
     height: 596px;
 }
 
-nav{
-	
+.upper__header{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
 }
 
 .menu__list{
 	display: flex;
-	justify-content: flex-end;
+	margin-top:0;
+	padding:0;
 	list-style: none;
-	font-size: 16px;
 	margin-right: 195px;
-	
 }
 
 .menu__list li a{
+	color:#fff;
 	text-decoration: none;
+	display: block;
 	text-transform: uppercase;
-	color:#fff;
-	
-}
-
-.menu__list li{
-	padding-top:60px;
-	
-}
-
-.menu__button{
-	padding:10px 19px;
-	margin-left: 6px;
-}
-
-.menu__button:hover{
-	background-color: #643a79;
+	font-size:16px;
+	padding: 8px 19px;
 	border-radius: 4px;
+	
 }
 
-h1{
-	
-	margin-top: -50px;
-	margin-left:212px;
-	font-size: 35px;
-	color:#fff;
-	font-family:  'Oleo Script', cursive;
+.menu__list li a:hover{
+	background-color: #643a79;
 }
 
+.menu__list li a:focus{
+	border: 1px solid grey;
+	background-color: #ec9111;
+}
 
-.header__text{
-	
-	margin-left: 267px;
-	margin-right: 213px;
-	font-size: 42px;
-	text-align: center;
-	color:#fff;
-	margin-top: 122px;
-	
+.menu__list li:not(:first-child){
+	padding-left:15px;
+}
+.logo{
+	margin-top:40px;
+	margin-left: 213px;
 }
 
 .title__center{
@@ -77,13 +64,24 @@ h1{
 	justify-content: center;
 }
 
-button{
+.header__text{
+	position: relative;
+	margin-left: 267px;
+	margin-right: 213px;
+	font-size: 42px;
+	text-align: center;
+	color:#fff;
+	margin-top: 80px;
+}
+
+.type__head__button{
 	height: 70px;
 	width: 295px;
 	font-size:18px;
 	text-align: center;
 	background-color:#eb7d4b;
 	border: none;
+	cursor: pointer;
 	border-radius: 4px;
 	color:#fff;
 }
@@ -92,10 +90,168 @@ button{
 	margin-top: 62px;
 }
 
-.button__header:hover{
-	opacity: 70%;
+.type__head__button:hover{
+	opacity: 75%;
 }
-.services{
+
+/*-----------------------------------------------------------------------------------------------*/
+
+.section__two{
 	height: 749px;
 	background: #17c2a4;
+}
+
+.services__title{
+	font-family: 'Titillium Web';
+	font-size: 40px;
+	color:#fff;
+	padding-top: 100px
+		
+}
+
+.line{
+	width: 88px;
+	border-bottom: 4px solid ;
+	position: relative; 
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 10px 0;
+	border-radius: 2px;
+}	
+
+.first__line{
+	color:#14a58c;
+}
+.services__subtitle{
+	font-size: 18px;
+	text-align: center;
+	color:#fff;
+}
+
+.services__providing{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin:0px 205px;
+}
+
+.services{
+	width: 200px;
+	text-align: center;
+}
+
+.sub__title{
+	font-size:24px;
+	color:#fff;
+}
+
+.sub__title__text{
+	font-size:16px;
+	color:#fff;
+	margin-top: 20px;
+}
+
+.service__icon{
+	margin-top:85px;
+	margin-bottom: 65px;
+	padding-left: 10px;
+}
+
+.service__icon :not(:first-child){
+	padding-left: 30px;
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+.section__third{
+	height: 916px;
+	background: #e7f1f8;
+}
+
+.team__title{
+	font-size:42px;
+	color: #3c4761;
+	padding-top: 90px;
+	font-weight: 700;
+	letter-spacing:3px;
+}
+
+.second__line{
+	color:#c8d9e5;
+}
+
+.team__sub__title{
+	font-size:19px;
+	color:#3c4761;
+}
+
+.our__team{
+	display: flex;
+	justify-content: space-between;
+	margin:80px 200px 0px;
+	text-align: center;
+}
+
+.person__name{
+	font-size: 24px;
+	font-weight: bold;
+	color:#3c4761;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.person__position{
+	font-size:16px;
+	color:#1abbf3;
+}
+
+.person__info{
+	margin-top:30px;
+}
+
+.contact__links{
+	margin-top: 35px;
+}
+.contact__icon{
+	margin-left: 10px;
+}
+
+
+.contact__icon:hover{
+	
+	filter: brightness(75%);
+	cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.section__fourth{
+	height: 655px;
+	background-color: #fff;
+}
+
+.skills__title{
+	font-size:40px;
+	color: #3c4761;
+	font-weight: 700;
+	margin-top: 100px;
+	letter-spacing:3px;
+}
+
+.third__line{
+	color:#dfe8ed;
+}
+
+
+.skills__sub__title{
+	margin:0 380px;
+	text-align: center;
+	font-size:19px;
+	color: #3c4761;;
+}
+
+.our__skills{
+	display: flex;
+	justify-content: space-between;
+	margin:110px 220px 0px;
+	
 }
